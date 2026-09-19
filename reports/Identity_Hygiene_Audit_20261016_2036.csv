@@ -1,0 +1,5 @@
+﻿"UserPrincipalName","DisplayName","Department","AccountEnabled","CreatedDate","LastSignInDate","IsInactive90Days","MfaRegistered","PrivilegedRoles","RiskLevel"
+"admin@amaciasiam.onmicrosoft.com","Alvaro Macias Garcia",,"True","16/10/2026 13:47:20",,"False",,"Global Administrator","HIGH"
+"carlos.garcia@amaciasiam.onmicrosoft.com","Carlos Garcia","Human-Resources","True","16/10/2026 18:16:56",,"False",,"None","LOW"
+"elena.fernandez@amaciasiam.onmicrosoft.com","Elena Fernandez","SecOps","True","16/10/2026 18:16:58",,"False",,"None","LOW"
+"patrick.mahomes@amaciasiam.onmicrosoft.com","Patrick Mahomes","IT-Infrastructure","True","16/10/2026 18:17:00",,"False",,"None","LOW"
