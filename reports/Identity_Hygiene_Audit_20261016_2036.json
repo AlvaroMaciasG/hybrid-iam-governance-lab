@@ -1,0 +1,50 @@
+﻿[
+    {
+        "UserPrincipalName":  "admin@amaciasiam.onmicrosoft.com",
+        "DisplayName":  "Alvaro Macias Garcia",
+        "Department":  null,
+        "AccountEnabled":  true,
+        "CreatedDate":  "\/Date(1792158440000)\/",
+        "LastSignInDate":  null,
+        "IsInactive90Days":  false,
+        "MfaRegistered":  null,
+        "PrivilegedRoles":  "Global Administrator",
+        "RiskLevel":  "HIGH"
+    },
+    {
+        "UserPrincipalName":  "carlos.garcia@amaciasiam.onmicrosoft.com",
+        "DisplayName":  "Carlos Garcia",
+        "Department":  "Human-Resources",
+        "AccountEnabled":  true,
+        "CreatedDate":  "\/Date(1792174616000)\/",
+        "LastSignInDate":  null,
+        "IsInactive90Days":  false,
+        "MfaRegistered":  null,
+        "PrivilegedRoles":  "None",
+        "RiskLevel":  "LOW"
+    },
+    {
+        "UserPrincipalName":  "elena.fernandez@amaciasiam.onmicrosoft.com",
+        "DisplayName":  "Elena Fernandez",
+        "Department":  "SecOps",
+        "AccountEnabled":  true,
+        "CreatedDate":  "\/Date(1792174618000)\/",
+        "LastSignInDate":  null,
+        "IsInactive90Days":  false,
+        "MfaRegistered":  null,
+        "PrivilegedRoles":  "None",
+        "RiskLevel":  "LOW"
+    },
+    {
+        "UserPrincipalName":  "patrick.mahomes@amaciasiam.onmicrosoft.com",
+        "DisplayName":  "Patrick Mahomes",
+        "Department":  "IT-Infrastructure",
+        "AccountEnabled":  true,
+        "CreatedDate":  "\/Date(1792174620000)\/",
+        "LastSignInDate":  null,
+        "IsInactive90Days":  false,
+        "MfaRegistered":  null,
+        "PrivilegedRoles":  "None",
+        "RiskLevel":  "LOW"
+    }
+]

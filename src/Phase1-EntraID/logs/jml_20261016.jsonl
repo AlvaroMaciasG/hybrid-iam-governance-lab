@@ -1,0 +1,14 @@
+﻿{"Timestamp":"2026-10-16 20:12:20","Level":"INFO","Action":"JOINER_DRYRUN","User":"carlos.garcia@amaciasiam.onmicrosoft.com","Details":"Se crearÃ­a el usuario y se aÃ±adirÃ­a a \u0027SG-RBAC-Human-Resources\u0027.","DryRun":true}
+{"Timestamp":"2026-10-16 20:12:20","Level":"INFO","Action":"JOINER_DRYRUN","User":"elena.fernandez@amaciasiam.onmicrosoft.com","Details":"Se crearÃ­a el usuario y se aÃ±adirÃ­a a \u0027SG-RBAC-SecOps\u0027.","DryRun":true}
+{"Timestamp":"2026-10-16 20:12:20","Level":"INFO","Action":"JOINER_DRYRUN","User":"patrick.mahomes@amaciasiam.onmicrosoft.com","Details":"Se crearÃ­a el usuario y se aÃ±adirÃ­a a \u0027SG-RBAC-IT-Infrastructure\u0027.","DryRun":true}
+{"Timestamp":"2026-10-16 20:12:20","Level":"INFO","Action":"LEAVER_SKIP","User":"malik.willis@amaciasiam.onmicrosoft.com","Details":"Dado de baja y ya no existe en Entra ID.","DryRun":true}
+{"Timestamp":"2026-10-16 20:16:57","Level":"AUDIT","Action":"JOINER_CREATED","User":"carlos.garcia@amaciasiam.onmicrosoft.com","Details":"Usuario creado (Dept: Human-Resources).","DryRun":false}
+{"Timestamp":"2026-10-16 20:16:58","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"carlos.garcia@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-AllEmployees\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:16:58","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"carlos.garcia@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-Human-Resources\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:16:59","Level":"AUDIT","Action":"JOINER_CREATED","User":"elena.fernandez@amaciasiam.onmicrosoft.com","Details":"Usuario creado (Dept: SecOps).","DryRun":false}
+{"Timestamp":"2026-10-16 20:16:59","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"elena.fernandez@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-AllEmployees\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:17:00","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"elena.fernandez@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-SecOps\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:17:00","Level":"AUDIT","Action":"JOINER_CREATED","User":"patrick.mahomes@amaciasiam.onmicrosoft.com","Details":"Usuario creado (Dept: IT-Infrastructure).","DryRun":false}
+{"Timestamp":"2026-10-16 20:17:01","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"patrick.mahomes@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-AllEmployees\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:17:01","Level":"AUDIT","Action":"JOINER_GROUP_ADD","User":"patrick.mahomes@amaciasiam.onmicrosoft.com","Details":"AÃ±adido a \u0027SG-RBAC-IT-Infrastructure\u0027.","DryRun":false}
+{"Timestamp":"2026-10-16 20:17:01","Level":"INFO","Action":"LEAVER_SKIP","User":"malik.willis@amaciasiam.onmicrosoft.com","Details":"Dado de baja y ya no existe en Entra ID.","DryRun":false}
