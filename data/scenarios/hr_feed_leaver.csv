@@ -1,0 +1,5 @@
+EmployeeID,GivenName,Surname,DisplayName,UserPrincipalName,Department,JobTitle,AccountStatus
+EMP001,Carlos,Garcia,Carlos Garcia,carlos.garcia@amaciasiam.onmicrosoft.com,Human-Resources,HR Coordinator,Active
+EMP002,Elena,Fernandez,Elena Fernandez,elena.fernandez@amaciasiam.onmicrosoft.com,IT-Infrastructure,Cloud Engineer,Terminated
+EMP003,Patrick,Mahomes,Patrick Mahomes,patrick.mahomes@amaciasiam.onmicrosoft.com,IT-Infrastructure,Cloud Engineer,Active
+EMP004,Malik,Willis,Malik Willis,malik.willis@amaciasiam.onmicrosoft.com,IT-Infrastructure,IT Support Technician,Terminated
