@@ -5,7 +5,7 @@ I used Microsoft Entra ID to test application sign-in, review group membership a
 ## SAML 2.0 single sign-on
 
 - **Configuration.** I set up `IAM Lab - SAML SSO` as a SAML enterprise application in Entra ID, configured the SAML Toolkit reply URL and uploaded Entra's signing certificate to the Toolkit.
-- **Check.** I started sign-in from SAML Toolkit as Carlos. The Toolkit opened an authenticated session, and the Entra sign-in log for `IAM Lab - SAML SSO` showed a successful event on November 4, 2026 at 11:21 UTC.
+- **Check.** I started sign-in from SAML Toolkit as Carlos. The Toolkit opened an authenticated session, and the Entra sign-in log for `IAM Lab - SAML SSO` recorded a successful sign-in.
 - **Result.** The application accepted the SAML assertion issued by Entra and signed in the test user.
 - **Evidence.** [Successful Entra sign-in](evidence/phase-3/saml-sso-success.png).
 
@@ -26,7 +26,7 @@ I used Microsoft Entra ID to test application sign-in, review group membership a
 ## Conditional Access in report-only mode
 
 - **Configuration.** I set `LAB - SAML MFA - Report Only` to require MFA for Carlos when accessing `IAM Lab - SAML SSO`, and left the policy in *Report-only* mode.
-- **Check.** *What If* matched the policy. I then completed a SAML sign-in and checked the policy result in the exported Entra log for the successful event on November 4, 2026 at 17:32 UTC.
+- **Check.** *What If* matched the policy. I then completed a SAML sign-in and checked the policy result in the exported Entra sign-in log.
 - **Result.** The sign-in succeeded. The policy evaluation showed that the same sign-in would have required an additional MFA step with the policy enabled.
 
 Selected fields from the policy entry in the exported sign-in log.
