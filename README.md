@@ -27,9 +27,9 @@ I tested SAML SSO, OIDC sign-in and delegated access to Microsoft Graph, Access 
 
 ## Roadmap
 
-| Phase | Topic                                                       | Status              |
-| ----- | ----------------------------------------------------------- | ------------------- |
-| 1     | Cloud JML and identity audit                                | Implemented         |
-| 2     | Active Directory JML and Entra Connect Sync                 | Tested in the lab   |
-| 3     | Application access and governance                           | Verified in the lab |
-| 4     | Service principal audit, GitHub Actions, and ServiceNow cases | Planned             |
+| Phase | Topic                                                         | Status                            |
+| ----- | ------------------------------------------------------------- | --------------------------------- |
+| 1     | Cloud JML and identity audit                                  | Implemented                       |
+| 2     | Active Directory JML and Entra Connect Sync                   | Implemented and tested in the lab |
+| 3     | Application access and governance                             | Verified in the lab               |
+| 4     | Service principal audit, GitHub Actions, and ServiceNow cases | Planned                           |
