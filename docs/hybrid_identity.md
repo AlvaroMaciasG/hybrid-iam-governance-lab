@@ -82,4 +82,4 @@ I tested synchronization with three users who already existed in Entra. I tested
 
 The script manages the `GG-JML` groups. Groups created directly in Entra during phase 1, such as `SG-RBAC-SecOps`, are managed separately. When I offboarded Elena, her memberships in those cloud groups remained in place. The offboarding test therefore covers disabling the account and removing memberships in the groups managed by the script.
 
-Phase 3 will cover application access with SAML, OIDC, and OAuth, Access Reviews, PIM, Conditional Access in report-only mode, and ServiceNow cases.
+The [Phase 3 guide](application_access.md) covers the application access and governance tests I ran in Entra, including an access review for a group managed in the cloud.

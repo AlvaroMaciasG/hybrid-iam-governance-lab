@@ -19,11 +19,17 @@ I checked that three existing Entra users kept their object IDs after matching w
 - [Phase 2 setup and test results](docs/hybrid_identity.md)
 - [Sample HR data](data/hr_feed.csv) and [mover and leaver examples](data/scenarios)
 
+## Phase 3 — Application access and governance
+
+I tested SAML SSO, OIDC sign-in and delegated access to Microsoft Graph, Access Reviews, Conditional Access in report-only mode, and temporary role activation with PIM.
+
+- [Phase 3 setup and test results](docs/application_access.md)
+
 ## Roadmap
 
-| Phase | Topic                                       | Status                                                                                                         |
-| ----- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| 1     | Cloud JML and identity audit                | Implemented                                                                                                    |
-| 2     | Active Directory JML and Entra Connect Sync | Tested in the lab                                                                                              |
-| 3     | Application access and governance           | Planned — SAML, OIDC, OAuth, Access Reviews, PIM, Conditional Access in report-only mode, and ServiceNow cases |
-| 4     | Service principal audit and GitHub Actions  | Planned                                                                                                        |
+| Phase | Topic                                                       | Status              |
+| ----- | ----------------------------------------------------------- | ------------------- |
+| 1     | Cloud JML and identity audit                                | Implemented         |
+| 2     | Active Directory JML and Entra Connect Sync                 | Tested in the lab   |
+| 3     | Application access and governance                           | Verified in the lab |
+| 4     | Service principal audit, GitHub Actions, and ServiceNow cases | Planned             |
